@@ -265,7 +265,7 @@ export default function Portfolio() {
               <div className="bg-white border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] flex flex-col">
                 <div className="h-48 border-b-4 border-black bg-gray-100 p-4 flex items-center justify-center">
                   <img
-                    src="/portofolio-imam/public/logos.jpg"
+                    src="/logos.jpg"
                     alt="Logo SiPaSi"
                     className="max-h-full object-contain"
                   />
