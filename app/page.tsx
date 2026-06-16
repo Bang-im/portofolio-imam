@@ -67,7 +67,11 @@ export default function Portfolio() {
             {/* Foto Profil Placeholder (Ganti src dengan fotomu) */}
             <div className="border-4 border-black shadow-[16px_16px_0px_#B5FF00] bg-white h-[400px] md:h-[500px] w-full relative overflow-hidden">
               <div className="absolute inset-0 flex items-center justify-center bg-gray-100 font-bold text-gray-400 border-[16px] border-[#FF7A00]">
-                [Masukkan Foto Disini]
+                <img
+                  src="/portofolio-imam/public/me.jpeg"
+                  alt="Foto Profil"
+                  className="max-h-full object-contain"
+                />
               </div>
             </div>
           </div>
@@ -131,9 +135,7 @@ export default function Portfolio() {
                 <h3 className="text-2xl font-black mb-2 uppercase text-white">
                   Data & DB
                 </h3>
-                <p className="font-bold">
-                  MySQL, Data Mining (SMOTE/ADASYN), Git.
-                </p>
+                <p className="font-bold">MySQL, Git.</p>
               </div>
             </div>
           </div>
@@ -150,13 +152,13 @@ export default function Portfolio() {
               <div className="bg-[#B5FF00] border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] p-0 flex flex-col md:flex-row">
                 <div className="md:w-1/3 border-b-4 md:border-b-0 md:border-r-4 border-black p-6 bg-white">
                   <div className="bg-black text-white font-black px-3 py-1 inline-block mb-4 uppercase">
-                    Nov 2025 - Mei 2026
+                    APR 2025 - JULI 2025
                   </div>
                   <h4 className="text-xl font-black text-[#FF00D6] uppercase">
-                    Proyek Independen
+                    MAGANG
                   </h4>
                   <p className="font-bold text-gray-600 mt-2">
-                    📍 Universitas / Remote
+                    📍 Universitas Muhammadiyah Riau
                   </p>
                 </div>
                 <div className="md:w-2/3 p-6 bg-[#FEFAF1]">
@@ -167,7 +169,7 @@ export default function Portfolio() {
                     Merancang dan mengembangkan aplikasi{" "}
                     <strong>SiPaSi (Sistem Penjadwalan Sidang)</strong> berbasis
                     web. Mengelola manajemen barang (masuk/keluar), serta
-                    mendesain sistem penjadwalan ujian yang memfasilitasi
+                    mendesain sistem penjadwalan sidang yang memfasilitasi
                     koordinasi otomatis antara mahasiswa, dosen penguji, dan
                     ketua sidang.
                   </p>
@@ -263,7 +265,7 @@ export default function Portfolio() {
               <div className="bg-white border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] flex flex-col">
                 <div className="h-48 border-b-4 border-black bg-gray-100 p-4 flex items-center justify-center">
                   <img
-                    src="/SiPaSi/public/img/si.png"
+                    src="/portofolio-imam/public/logos.jpg"
                     alt="Logo SiPaSi"
                     className="max-h-full object-contain"
                   />
@@ -275,22 +277,6 @@ export default function Portfolio() {
                   <p className="font-medium flex-grow">
                     Sistem Penjadwalan Sidang berbasis Laravel. Memfasilitasi
                     koordinasi jadwal ujian antara mahasiswa dan dosen.
-                  </p>
-                </div>
-              </div>
-
-              {/* Project 2 */}
-              <div className="bg-[#B5FF00] border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] flex flex-col">
-                <div className="h-48 border-b-4 border-black bg-white p-4 flex items-center justify-center text-6xl">
-                  📊
-                </div>
-                <div className="p-6 flex flex-col flex-grow">
-                  <h3 className="text-2xl font-black uppercase mb-2">
-                    Data Analysis
-                  </h3>
-                  <p className="font-medium flex-grow">
-                    Proyek klasifikasi data mining menggunakan teknik SMOTE dan
-                    ADASYN untuk dataset yang tidak seimbang.
                   </p>
                 </div>
               </div>
@@ -324,10 +310,10 @@ export default function Portfolio() {
             </h2>
             <div className="inline-block bg-[#00F0FF] border-4 border-black shadow-[12px_12px_0px_rgba(0,0,0,1)] p-8 md:p-12 mt-8 text-left">
               <p className="text-2xl md:text-3xl font-black mb-4 uppercase">
-                📧 imam.kurniawan@email.com
+                📧 imamkurniawan2030@email.com
               </p>
               <p className="text-2xl md:text-3xl font-black mb-8 uppercase">
-                💻 github.com/ima-jpg
+                💻 https://github.com/Bang-im
               </p>
               <div className="flex flex-wrap gap-4">
                 <button className="bg-white border-4 border-black font-black uppercase px-6 py-3 shadow-[4px_4px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-none transition-all">
