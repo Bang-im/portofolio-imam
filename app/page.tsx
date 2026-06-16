@@ -68,7 +68,7 @@ export default function Portfolio() {
             <div className="border-4 border-black shadow-[16px_16px_0px_#B5FF00] bg-white h-[400px] md:h-[500px] w-full relative overflow-hidden">
               <div className="absolute inset-0 flex items-center justify-center bg-gray-100 font-bold text-gray-400 border-[16px] border-[#FF7A00]">
                 <img
-                  src="/portofolio-imam/public/me.jpeg"
+                  src="/me.jpeg"
                   alt="Foto Profil"
                   className="max-h-full object-contain"
                 />
